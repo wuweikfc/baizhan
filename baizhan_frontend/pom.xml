@@ -11,6 +11,14 @@
 
     <artifactId>baizhan_frontend</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>baizhan_frontend_cart</module>
+        <module>baizhan_frontend_details</module>
+        <module>baizhan_frontend_passport</module>
+        <module>baizhan_frontend_portal</module>
+        <module>baizhan_frontend_search</module>
+        <module>baizhan_frontend_trade</module>
+    </modules>
 
 
 </project>
