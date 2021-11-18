@@ -11,5 +11,11 @@
 
     <artifactId>baizhan_commons_tm</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.codingapi.txlcn</groupId>
+            <artifactId>txlcn-tm</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -1,0 +1,17 @@
+spring:
+  redis:
+    host: 192.168.137.128
+    port: 6379
+
+baizhan:
+  details:
+    prefix:
+      item: 'baizhan:details:item::'  # 缓存商品基本信息的key前缀
+      itemDesc: 'baizhan:details:itemDesc::'  # 缓存商品描述的key前缀
+      itemParamItem: 'baizhan:details:itemParamItem::'  # 缓存商品规格的key前缀
+    lock:
+      item: 'baizhan:details:lock:item::'
+      itemDesc: 'baizhan:details:lock:itemDesc::'
+      itemParamItem: 'baizhan:details:lock:itemParamItem::'
+  cart:
+    prefix: 'baizhan:cart::'  # 购物车缓存key前缀
