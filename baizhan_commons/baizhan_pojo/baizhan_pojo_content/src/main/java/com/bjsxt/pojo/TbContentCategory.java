@@ -47,7 +47,7 @@ public class TbContentCategory extends Model<TbContentCategory> {
     /**
      * 该类目是否为父类目，1为true，0为false
      */
-    private boolean isParent;
+    private Boolean isParent;
 
     /**
      * 创建时间
