@@ -11,5 +11,12 @@
 
     <artifactId>baizhan_mapper_content</artifactId>
 
-
+    <dependencies>
+        <!-- 依赖实体项目 -->
+        <dependency>
+            <artifactId>baizhan_pojo_content</artifactId>
+            <groupId>com.bjsxt</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

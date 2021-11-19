@@ -12,17 +12,17 @@
     <artifactId>baizhan_commons</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>baizhan_commons_email</module>
-        <module>baizhan_commons_fileupload</module>
-        <module>baizhan_commons_gateway</module>
-        <module>baizhan_commons_pojo</module>
-        <module>baizhan_commons_rabbitmq</module>
-        <module>baizhan_commons_redis</module>
-        <module>baizhan_commons_session</module>
-        <module>baizhan_commons_tm</module>
-        <module>baizhan_commons_utils</module>
-        <module>baizhan_mapper</module>
         <module>baizhan_pojo</module>
+        <module>baizhan_commons_fileupload</module>
+        <module>baizhan_commons_pojo</module>
+        <module>baizhan_commons_utils</module>
+        <module>baizhan_commons_redis</module>
+        <module>baizhan_commons_rabbitmq</module>
+        <module>baizhan_commons_session</module>
+        <module>baizhan_commons_email</module>
+        <module>baizhan_commons_gateway</module>
+        <module>baizhan_commons_tm</module>
+        <module>baizhan_mapper</module>
     </modules>
 
 

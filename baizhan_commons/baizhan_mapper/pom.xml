@@ -14,9 +14,26 @@
     <modules>
         <module>baizhan_mapper_content</module>
         <module>baizhan_mapper_item</module>
-        <module>baizhan_pojo_order</module>
+        <module>baizhan_mapper_order</module>
         <module>baizhan_mapper_user</module>
     </modules>
 
+    <dependencies>
+        <!-- 数据库驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <!-- druid-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
+        <!-- mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
