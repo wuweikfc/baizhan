@@ -13,20 +13,6 @@ public class BaizhanResult implements Serializable {
 
     private Object data;
 
-    public void setStatus(int status) {
-
-        this.status = status;
-    }
-
-    public void setMsg(String msg) {
-
-        this.msg = msg;
-    }
-
-    public void setData(Object data) {
-
-        this.data = data;
-    }
 
     public static BaizhanResult ok() {
 
