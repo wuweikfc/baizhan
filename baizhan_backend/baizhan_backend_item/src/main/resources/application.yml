@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: baizhan-backend-item
+  profiles:
+    active: itemmapper,rabbitmq,redis
+  elasticsearch:
+    rest:
+      uris: http://192.168.137.128:9200
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.137.128:8761/eureka/
+
+tx-lcn:
+  client:
+    manager-address: 192.168.40.222:9190
