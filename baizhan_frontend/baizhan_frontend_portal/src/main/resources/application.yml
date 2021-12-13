@@ -1,0 +1,12 @@
+server:
+  port: 8083
+spring:
+  profiles:
+    active: contentmapper,commonspojo,redis
+  application:
+    name: baizhan-frontend-portal
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.137.128:8761/eureka/

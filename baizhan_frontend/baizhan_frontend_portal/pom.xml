@@ -11,5 +11,11 @@
 
     <artifactId>baizhan_frontend_portal</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <artifactId>baizhan_mapper_content</artifactId>
+            <groupId>com.bjsxt</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

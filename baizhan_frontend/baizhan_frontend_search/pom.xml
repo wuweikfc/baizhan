@@ -11,5 +11,16 @@
 
     <artifactId>baizhan_frontend_search</artifactId>
 
-
+    <dependencies>
+        <!-- spring data es -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.bjsxt</groupId>
+            <artifactId>baizhan_pojo_item</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

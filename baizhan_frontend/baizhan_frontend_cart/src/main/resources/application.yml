@@ -1,0 +1,11 @@
+server:
+  port: 8087
+spring:
+  profiles:
+    active: redis
+  application:
+    name: baizhan-frontend-cart
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.137.128:8761/eureka/

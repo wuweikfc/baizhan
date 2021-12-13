@@ -1,0 +1,11 @@
+server:
+  port: 8086
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.137.128:8761/eureka/
+spring:
+  profiles:
+    active: redis,usermapper
+  application:
+    name: baizhan-frontend-passport

@@ -11,5 +11,21 @@
 
     <artifactId>baizhan_frontend_trade</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <artifactId>baizhan_mapper_order</artifactId>
+            <groupId>com.bjsxt</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <artifactId>baizhan_commons_rabbitmq</artifactId>
+            <groupId>com.bjsxt</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <artifactId>baizhan_pojo_user</artifactId>
+            <groupId>com.bjsxt</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

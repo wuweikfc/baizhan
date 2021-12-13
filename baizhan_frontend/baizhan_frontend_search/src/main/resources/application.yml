@@ -1,0 +1,15 @@
+server:
+  port: 8084
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.137.128:8761/eureka/
+
+spring:
+  elasticsearch:
+    rest:
+      uris: http://192.168.137.128:9200
+  profiles:
+    active: redis
+  application:
+    name: baizhan-frontend-search
